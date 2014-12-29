@@ -1,0 +1,80 @@
+body {
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, Georgia, "Times New Roman", serif;
+}
+h1,h2,h3,h4 {
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, Georgia, "Times New Roman", serif;
+}
+p {
+    font-family: Georgia,  "Palatino Linotype", "Book Antiqua", Palatino, "Times New Roman", serif;
+	font-size: 14px;
+	text-indent: 25px;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+span.spread {
+	letter-spacing: 8px;
+}
+span.smallCap {
+	font-variant: small-caps;
+}
+img {
+    display: block; text-align: center; margin: 1em auto;
+}
+p.quoteAuthor {
+	font-style: italic;
+	font-weight: bold;
+}
+p#title1 {
+	font-size: 36px;
+	letter-spacing: 12px;
+}
+p#title2 {
+	font-size: 36px;
+}
+h1 {
+	font-size: 18px;
+	text-align: center;
+}
+p.author {
+	font-size: 16px;
+	text-align: center;
+}
+p.dedic {
+	font-size: 18px;
+}
+p.dedic.spread {
+	letter-spacing: 8px;
+}
+body.centerPage {
+	text-align: center;
+}
+body.centerPage p {
+	text-indent: 0;
+}
+/* Mid-story poetry and quotes. */
+p.stanza {
+	text-indent: 0;
+	margin-left: 50px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-size: 12px;
+}
+/* Poem-indent pages. */
+div.poemIndent p {
+	text-indent: -25px;
+	margin-left: 25px;
+}
+body.poem p {
+	text-indent: 0;
+}
+p.smaller {
+	font-size: 12px;
+}
+/* Splitters. */
+p.sep {
+	text-indent: 0;
+	text-align: center;
+}
+h2 {
+	font-size: 16px;
+}
